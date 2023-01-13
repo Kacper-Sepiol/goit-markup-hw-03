@@ -41,7 +41,21 @@
 body {
     background-color: white;
     font-family: "Roboto", sans-serif;
+    /* width: 1600px;
+    height: 1880px; */
     display: flex;
+    flex-direction: column;
+    border-left: 215px;
+    border-right: 215px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+main {
+    margin-top: 94px;
+    margin-bottom: 94px;
+    max-width: 1170px;
+    max-height: 1360px;
 }
 
 .main-logo {
@@ -77,10 +91,22 @@ figcaption {
 
 .list-pictures {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    width: 1600px;
+    height: 88px;
+    background-color: red;
 }
 
 footer {
     background-color: #2f303a;
+    padding-top: 60px;
+    height: 252px;
+    width: 1600px;
 }
 
 address {
@@ -96,6 +122,10 @@ address {
 .list-pictures-element {
     border: 1px solid #eeeeee;
     background-color: white;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 370px;
+    height: 404px;
 }
 
 /* index.html */
