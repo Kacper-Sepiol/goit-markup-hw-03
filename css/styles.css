@@ -1,0 +1,128 @@
+.button:hover {
+    background-color: #2196f3;
+    color: white;
+}
+
+.button {
+    color: black;
+    background-color: #f5f4fa;
+    border: 1px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.button:focus {
+    background-color: #2196f3;
+}
+
+.link:hover {
+    color: #2196f3;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+}
+
+.list-button {
+    list-style: none;
+}
+
+.email-tel {
+    text-decoration: none;
+    color: #757575;
+}
+
+body {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-logo {
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.main-logo:hover {
+    color: #2196f3;
+}
+
+.main-logo:focus {
+    background-color: #2196f3;
+}
+
+figcaption {
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.second-caption-pictures {
+    font-size: 16px;
+    color: #757575;
+    line-height: 1.9;
+    font-weight: 400;
+}
+
+.list-pictures {
+    list-style: none;
+}
+
+footer {
+    background-color: #2f303a;
+}
+
+address {
+    font-size: 14px;
+    line-height: 2;
+    color: white;
+}
+
+.logo-color {
+    color: #2196f3;
+}
+
+.list-pictures-element {
+    border: 1px solid #eeeeee;
+    background-color: white;
+}
+
+/* index.html */
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    background-color: #2f303a;
+    color: white;
+}
+
+.information {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.15;
+}
+
+.information-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.second-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
