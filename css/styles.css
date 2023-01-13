@@ -41,6 +41,7 @@
 body {
     background-color: white;
     font-family: "Roboto", sans-serif;
+    display: flex;
 }
 
 .main-logo {
