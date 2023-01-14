@@ -11,6 +11,8 @@
     text-align: center;
     line-height: 1.6;
     cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
 }
 
 .button:focus {
@@ -31,6 +33,9 @@
 
 .list-button {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .email-tel {
@@ -38,24 +43,61 @@
     color: #757575;
 }
 
-body {
+.body-portfolio {
     background-color: white;
     font-family: "Roboto", sans-serif;
-    /* width: 1600px;
-    height: 1880px; */
     display: flex;
+    width: 1600px;
+    height: 1880px;
+    justify-content: center;
     flex-direction: column;
-    border-left: 215px;
-    border-right: 215px;
-    padding-left: 215px;
-    padding-right: 215px;
+    background-color: white;
+    margin: 0 auto;
 }
 
-main {
-    margin-top: 94px;
-    margin-bottom: 94px;
-    max-width: 1170px;
-    max-height: 1360px;
+.main-portfolio {
+    width: 1170px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.header-portfolio {
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 93px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.navigation-info {
+    padding-right: 43px;
+}
+
+.navigation-email-tel {
+    padding-left: 227px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+div > a {
+    padding-right: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .main-logo {
@@ -65,6 +107,13 @@ main {
     color: black;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.main-logo-bottom {
+    padding-top: 64px;
+    padding-left: 215px;
 }
 
 .main-logo:hover {
@@ -93,26 +142,27 @@ figcaption {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-header {
-    width: 1600px;
-    height: 88px;
-    background-color: red;
+    justify-content: space-between;
+    padding: 0px;
 }
 
 footer {
     background-color: #2f303a;
     padding-top: 60px;
     height: 252px;
-    width: 1600px;
+    margin-top: 94px;
 }
 
 address {
     font-size: 14px;
     line-height: 2;
     color: white;
+    padding-left: 215px;
+}
+
+.email-tel-bottom {
+    padding-left: 215px;
+    line-height: 1.7;
 }
 
 .logo-color {
@@ -126,6 +176,7 @@ address {
     padding-left: 0px;
     width: 370px;
     height: 404px;
+    margin-bottom: 30px;
 }
 
 /* index.html */

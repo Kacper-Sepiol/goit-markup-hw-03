@@ -20,29 +20,35 @@
             @import url("https://fonts.googleapis.com/css2? family= Raleway:wght@700 & display=swap");
         </style>
     </head>
-    <body>
-        <header>
+    <body class="body-portfolio">
+        <header class="container header-portfolio">
             <a href="./index.html" class="main-logo"
                 ><span class="logo-color">Web</span>Studio</a
             >
 
-            <nav>
-                <a href="#agencja" class="link">Agencja</a>
-                <a href="./portfolio.html" class="link">Portfolio</a>
-                <a href="#kontakty" class="link">Kontakty</a>
+            <nav class="navigation">
+                <a href="#agencja" class="link navigation-info">Agencja</a>
+                <a href="./portfolio.html" class="link navigation-info"
+                    >Portfolio</a
+                >
+                <a href="#kontakty" class="link navigation-info">Kontakty</a>
             </nav>
 
-            <a href="mailto:info@devstudio.com" class="email-tel link"
-                >info@devstudio.com</a
-            >
-            <a href="tel:48111111111" class="email-tel link">+48 111 111 111</a>
+            <div class="navigation-email-tel">
+                <a
+                    href="mailto:info@devstudio.com"
+                    class="email-tel link navigation-email-tel-more-options"
+                    >info@devstudio.com</a
+                >
+                <a href="tel:48111111111" class="email-tel link"
+                    >+48 111 111 111</a
+                >
+            </div>
         </header>
 
-        <main>
+        <main class="section main-portfolio">
             <ul class="list-button">
-                <li class="list-button-item">
-                    <button type="button" class="button">Wszystkie</button>
-                </li>
+                <li><button type="button" class="button">Wszystkie</button></li>
                 <li><button type="button" class="button">Strony</button></li>
                 <li><button type="button" class="button">Aplikacje</button></li>
                 <li><button type="button" class="button">Dizajn</button></li>
@@ -165,15 +171,19 @@
             </ul>
         </main>
 
-        <footer>
-            <a href="" id="kontakt" class="main-logo"
+        <footer class="container">
+            <a href="" id="kontakt" class="main-logo main-logo-bottom"
                 ><span class="logo-color">Web</span>Studio</a
             >
             <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-            <a href="mailto:info@example.com" class="link email-tel"
+            <a
+                href="mailto:info@example.com"
+                class="link email-tel email-tel-bottom"
                 >info@example.com</a
             ><br />
-            <a href="tel:48111111111" class="link email-tel">+48 111 111 111</a>
+            <a href="tel:48111111111" class="link email-tel email-tel-bottom"
+                >+48 111 111 111</a
+            >
         </footer>
     </body>
 </html>
