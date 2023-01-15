@@ -82,7 +82,7 @@
 }
 
 .navigation-info {
-    padding-right: 43px;
+    margin-right: 43px;
 }
 
 .navigation-email-tel {
@@ -91,7 +91,7 @@
     padding-bottom: 32px;
 }
 
-div > a {
+.div-email-tel {
     padding-right: 50px;
 }
 
@@ -146,11 +146,10 @@ figcaption {
     padding: 0px;
 }
 
-footer {
+.footer-portfolio {
     background-color: #2f303a;
     padding-top: 60px;
     height: 252px;
-    margin-top: 94px;
 }
 
 address {
@@ -187,6 +186,11 @@ address {
     line-height: 1.37;
     background-color: #2f303a;
     color: white;
+    width: 1600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .information {
@@ -207,4 +211,23 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+}
+
+.body-index {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.main-logo-index {
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-left: 215px;
 }
