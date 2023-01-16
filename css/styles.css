@@ -146,7 +146,7 @@ figcaption {
     padding: 0px;
 }
 
-.footer-portfolio {
+footer {
     background-color: #2f303a;
     padding-top: 60px;
     height: 252px;
@@ -184,13 +184,13 @@ address {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
-    background-color: #2f303a;
     color: white;
     width: 1600px;
     height: 600px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
 }
 
 .information {
@@ -230,4 +230,80 @@ address {
     margin-top: 24px;
     margin-bottom: 25px;
     margin-left: 215px;
+}
+
+.title {
+    background-color: #2f303a;
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.button-main-title {
+    color: black;
+    background-color: #f5f4fa;
+    border: 1px;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 200px;
+    margin-right: 700px;
+    margin-left: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button-main-title:hover {
+    background-color: #2196f3;
+    color: white;
+}
+
+.button-main-title:focus {
+    background-color: #2196f3;
+}
+
+.main-index {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-div {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.information-div-konkret:not(:last-child) {
+    margin-right: 30px;
+}
+
+.list-second-title-picture {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.list-element-second-title-picture:not(:last-child) {
+    margin-right: 30px;
+}
+
+.two-second-title {
+    background-color: #f5f4fa;
+    width: 1600px;
+    height: 648px;
+    margin: 0 auto;
+    margin-top: 94px;
+}
+
+.list-two-second-title {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
 }
