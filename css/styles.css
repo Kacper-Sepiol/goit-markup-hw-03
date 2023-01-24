@@ -13,6 +13,9 @@
     cursor: pointer;
     border-radius: 4px;
     margin-right: 8px;
+    font-family: "Roboto";
+    height: 38px;
+    width: 121px;
 }
 
 .button:focus {
@@ -29,6 +32,24 @@
     font-size: 14px;
     line-height: 1.15;
     font-weight: 500;
+    font-family: "Roboto";
+}
+
+.link-portfolio-bottom {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 1.15;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.link-portfolio-bottom:hover {
+    color: #2196f3;
+}
+
+.link-portfolio-bottom:focus {
+    background-color: #2196f3;
 }
 
 .list-button {
@@ -71,6 +92,8 @@
     background-color: white;
     border-bottom: 1px solid #ececec;
     display: flex;
+    margin-top: 30px;
+    margin: 0 auto;
 }
 
 .navigation {
@@ -79,6 +102,7 @@
     margin-left: 93px;
     padding-top: 32px;
     padding-bottom: 32px;
+    font-family: "Roboto";
 }
 
 .navigation-info {
@@ -89,6 +113,7 @@
     padding-left: 227px;
     padding-top: 32px;
     padding-bottom: 32px;
+    font-family: "Roboto";
 }
 
 .div-email-tel {
@@ -96,8 +121,26 @@
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    min-width: 1200px;
+}
+
+.main-logo-portfolio {
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0px;
+    display: block;
+}
+
+.main-logo-portfolio:hover {
+    color: #2196f3;
+}
+
+.main-logo-portfolio:focus {
+    color: #2196f3;
 }
 
 .main-logo {
@@ -120,7 +163,7 @@
 }
 
 .main-logo:focus {
-    background-color: #2196f3;
+    color: #2196f3;
 }
 
 figcaption {
@@ -128,6 +171,7 @@ figcaption {
     color: black;
     line-height: 2;
     font-weight: 700;
+    font-family: "Roboto";
 }
 
 .second-caption-pictures {
@@ -135,6 +179,7 @@ figcaption {
     color: #757575;
     line-height: 1.9;
     font-weight: 400;
+    font-family: "Roboto";
 }
 
 .list-pictures {
@@ -149,6 +194,8 @@ footer {
     background-color: #2f303a;
     padding-top: 60px;
     height: 252px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 address {
@@ -156,9 +203,11 @@ address {
     line-height: 2;
     color: white;
     padding-left: 215px;
+    font-family: "Roboto";
 }
 
 .email-tel-bottom {
+    display: block;
     margin-left: 215px;
     line-height: 1.7;
 }
@@ -175,6 +224,13 @@ address {
     width: 370px;
     height: 404px;
     margin-bottom: 30px;
+}
+
+.figcaption-portfolio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 /* index.html */
@@ -197,12 +253,14 @@ address {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.15;
+    font-family: "Roboto";
 }
 
 .information-title {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
+    font-family: "Roboto";
 }
 
 .second-title {
@@ -210,6 +268,7 @@ address {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    font-family: "Roboto";
 }
 
 .body-index {
@@ -241,8 +300,8 @@ address {
 }
 
 .button-main-title {
-    color: black;
-    background-color: #f5f4fa;
+    color: white;
+    background-color: #2196f3;
     border: 1px;
     font-size: 16px;
     line-height: 1.6;
@@ -253,11 +312,7 @@ address {
     margin-left: 700px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.button-main-title:hover {
-    background-color: #2196f3;
-    color: white;
+    font-family: "Roboto";
 }
 
 .button-main-title:focus {
@@ -267,16 +322,18 @@ address {
 .main-index {
     display: flex;
     flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .information-div {
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
     margin-top: 94px;
     margin-bottom: 94px;
 }
 
-.information-div-konkret:not(:last-child) {
+.information-div-title:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -297,6 +354,9 @@ address {
     height: 648px;
     margin: 0 auto;
     margin-top: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .list-two-second-title {
@@ -305,4 +365,20 @@ address {
     justify-content: center;
     flex-direction: row;
     margin: 0 auto;
+}
+
+.element-list-two-second-title {
+    margin-right: 30px;
+    background-color: white;
+    border-radius: 0px 0px 4px 4px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+}
+
+.figcaption-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 }
