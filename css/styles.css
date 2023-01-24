@@ -37,11 +37,13 @@
 
 .link-portfolio-bottom {
     text-decoration: none;
-    color: black;
     font-size: 14px;
     line-height: 1.15;
     font-weight: 500;
     font-family: "Roboto";
+    margin-left: 215px;
+    color: #757575;
+    margin-top: 9px;
 }
 
 .link-portfolio-bottom:hover {
@@ -80,6 +82,7 @@
     width: 1170px;
     background-color: white;
     margin: 0 auto;
+    padding-bottom: 94px;
 }
 
 .section {
@@ -124,22 +127,26 @@
     min-width: 1200px;
 }
 
-.main-logo-portfolio {
+.main-logo-header {
+    width: 145px;
+    height: 31px;
+    display: block;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
     color: white;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
-    margin-top: 0px;
-    display: block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 215px;
 }
 
-.main-logo-portfolio:hover {
+.main-logo-header:hover {
     color: #2196f3;
 }
 
-.main-logo-portfolio:focus {
+.main-logo-header:focus {
     color: #2196f3;
 }
 
@@ -152,10 +159,6 @@
     font-family: "Raleway", sans-serif;
     margin-top: 24px;
     margin-bottom: 25px;
-}
-
-.main-logo-bottom {
-    margin-left: 215px;
 }
 
 .main-logo:hover {
@@ -192,22 +195,22 @@ figcaption {
 
 footer {
     background-color: #2f303a;
-    padding-top: 60px;
     height: 252px;
     width: 1600px;
     margin: 0 auto;
+    display: block;
 }
 
 address {
     font-size: 14px;
     line-height: 2;
     color: white;
-    padding-left: 215px;
+    margin-left: 215px;
     font-family: "Roboto";
+    margin-bottom: 9px;
 }
 
 .email-tel-bottom {
-    display: block;
     margin-left: 215px;
     line-height: 1.7;
 }
