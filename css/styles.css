@@ -283,6 +283,7 @@ address {
     flex-wrap: wrap;
     margin: 0 auto;
     flex-direction: column;
+    font-family: "Raleway", sans-serif;
 }
 
 .main-logo-index {
